@@ -2376,6 +2376,8 @@ input, select, textarea {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+		table-layout: fixed;
+		border-collapse: collapse;
 	}
 
 		table tbody tr {
@@ -2397,6 +2399,18 @@ input, select, textarea {
 			font-weight: 900;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
+		}
+
+		th.num {
+			width: 10%;
+		}
+
+		th.date {
+			width: 25%;
+		}
+		
+		th.title {
+			width: 65%;
 		}
 
 		table thead {
