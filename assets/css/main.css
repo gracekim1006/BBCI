@@ -2378,6 +2378,8 @@ input, select, textarea {
 		width: 100%;
 		table-layout: fixed;
 		border-collapse: collapse;
+		border: solid 1px #c9c9c9;
+
 	}
 
 		table tbody tr {
@@ -2411,6 +2413,12 @@ input, select, textarea {
 		
 		th.title {
 			width: 65%;
+		}
+		
+		th.tabletitle {
+			padding: 0.75em 0.75em;
+			width: 100%;
+			text-align: center;
 		}
 
 		table thead {
@@ -2592,8 +2600,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(25% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			width: calc(33.3333% - 2.5em);
+			margin: 1em 0 0 2.5em;
 		}
 
 			.tiles article > .image {
@@ -2839,7 +2847,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 6.5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
