@@ -2889,6 +2889,8 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
+		background-color: rgb(255, 255, 255);
+
 		
 	}
 
@@ -2898,7 +2900,7 @@ input, select, textarea {
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			margin: 0 0 .5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
